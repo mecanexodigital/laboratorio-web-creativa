@@ -4,6 +4,13 @@ Web de demostración de una sola página para **ÁUREA BAÑOS**, una empresa **f
 
 La página incluye un banner DEMO siempre visible. Todo el contenido es ilustrativo, el formulario no envía datos y los datos de contacto son ficticios o están pendientes.
 
+## Demo publicada
+
+- **URL:** https://mecanexodigital.github.io/laboratorio-web-creativa/
+- **Fecha de publicación:** 6 de octubre de 2026.
+
+Es una demo con una empresa ficticia, imágenes ilustrativas generadas con IA y un formulario que no envía ningún dato.
+
 ## Estructura de archivos
 
 | Archivo | Qué contiene |
