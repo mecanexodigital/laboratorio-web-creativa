@@ -1,8 +1,8 @@
 // Contacto: WhatsApp y teléfono.
 // Con el número vacío (modo demo) los botones NO abren WhatsApp ni marcan: muestran un aviso.
 // Este bloque va antes del código de GSAP para que siga funcionando si el CDN no carga.
-const WHATSAPP_NUMBER = ""; // [PENDIENTE DE CONFIRMAR] Formato internacional, solo cifras.
-const PHONE_NUMBER = "";    // [PENDIENTE DE CONFIRMAR] Formato internacional.
+const WHATSAPP_NUMBER = ""; // Se completa con el dato real del cliente. Formato internacional, solo cifras.
+const PHONE_NUMBER = "";    // Se completa con el dato real del cliente. Formato internacional.
 const WHATSAPP_MESSAGE = "Hola, me gustaría pedir información sobre una reforma de baño.";
 
 (function () {

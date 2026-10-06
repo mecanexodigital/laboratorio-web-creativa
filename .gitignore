@@ -16,3 +16,6 @@ assets/img/*
 !assets/img/servicio-reforma-integral.jpg
 !assets/img/servicio-plato-ducha.jpg
 !assets/img/servicio-bano-accesible.jpg
+
+# Lista interna de datos a pedir a un cliente
+PENDIENTES.md
