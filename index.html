@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ÁUREA BAÑOS · Demo ficticia de reformas de baños en Madrid</title>
+  <meta name="description" content="Web de demostración de una empresa ficticia de reformas de baños en Madrid. Todo el contenido es ilustrativo y no corresponde a un negocio real.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Banner DEMO: siempre visible -->
+  <p class="demo-banner">
+    <strong>DEMO</strong> · ÁUREA BAÑOS es una empresa ficticia
+  </p>
+
+  <main>
+    <!-- Hero: se ancla (pin) y la imagen se expande con el scroll -->
+    <section class="hero" aria-labelledby="hero-title">
+
+      <div class="hero-media">
+        <img class="hero-image" src="assets/img/hero-bano.jpg" width="2400" height="1340" fetchpriority="high" decoding="async" alt="Imagen ilustrativa generada con IA de un baño con espejo rectangular iluminado y mueble de madera con encimera de piedra. No es una obra real.">
+      </div>
+
+      <p class="hero-label">Imagen ilustrativa generada con IA. No es una obra real</p>
+
+      <div class="hero-copy">
+        <h1 id="hero-title">Reformas integrales de baños en Madrid</h1>
+        <p class="hero-sub">Cuéntanos qué baño tienes en mente y pide tu presupuesto.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#presupuesto">Pedir presupuesto</a>
+          <a class="btn btn-secondary" href="tel:+340000000000" aria-label="Llamar al +34 000 000 000 (teléfono ficticio)">Llamar</a>
+        </div>
+        <p class="hero-note">Teléfono ficticio de demostración: +34 000 000 000</p>
+      </div>
+    </section>
+
+    <!-- Servicios: lista editorial, no rejilla de tarjetas -->
+    <section class="services" id="servicios" aria-labelledby="servicios-title">
+      <div class="services-inner">
+        <header class="services-head">
+          <h2 id="servicios-title">Servicios</h2>
+          <p class="pending">[PENDIENTE DE CONFIRMAR] si es la lista definitiva.</p>
+        </header>
+
+        <article class="service service-lead">
+          <h3>Reforma integral de baño</h3>
+          <div class="service-body">
+            <p>Renovación completa del baño, de la distribución a los acabados, adaptada a tu espacio.</p>
+            <a class="service-link" href="#presupuesto" aria-label="Pedir presupuesto de reforma integral de baño">Pedir presupuesto</a>
+          </div>
+        </article>
+
+        <article class="service">
+          <h3>Cambio de bañera por plato de ducha</h3>
+          <div class="service-body">
+            <p>Sustitución de la bañera por un plato de ducha, con el modelo y el acabado que elijas.</p>
+            <a class="service-link" href="#presupuesto" aria-label="Pedir presupuesto de cambio de bañera por plato de ducha">Pedir presupuesto</a>
+          </div>
+        </article>
+
+        <article class="service">
+          <h3>Baño accesible</h3>
+          <div class="service-body">
+            <p>Adaptación del baño a las necesidades de movilidad de cada persona. Cuéntanos qué necesitas.</p>
+            <a class="service-link" href="#presupuesto" aria-label="Pedir presupuesto de baño accesible">Pedir presupuesto</a>
+          </div>
+        </article>
+
+        <article class="service">
+          <h3>Fontanería</h3>
+          <div class="service-body">
+            <p>Trabajos de fontanería en el baño: tuberías, desagües y puntos de agua.</p>
+            <a class="service-link" href="#presupuesto" aria-label="Pedir presupuesto de fontanería">Pedir presupuesto</a>
+          </div>
+        </article>
+
+        <article class="service">
+          <h3>Alicatado</h3>
+          <div class="service-body">
+            <p>Colocación de azulejos y revestimientos en paredes y suelos del baño.</p>
+            <a class="service-link" href="#presupuesto" aria-label="Pedir presupuesto de alicatado">Pedir presupuesto</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Trabajos: galería ilustrativa, composición asimétrica -->
+    <section class="works" id="trabajos" aria-labelledby="works-title">
+      <div class="works-inner">
+        <header class="works-head">
+          <h2 id="works-title">Trabajos</h2>
+          <p>Ejemplos ilustrativos de cómo se presentarían los trabajos de la empresa. <span class="pending">[PENDIENTE DE CONFIRMAR]</span> Trabajos reales.</p>
+        </header>
+
+        <div class="works-grid">
+          <figure class="work work-lg">
+            <div class="work-media">
+              <img src="assets/img/servicio-reforma-integral.jpg" width="1200" height="670" loading="lazy" decoding="async" alt="Imagen ilustrativa generada con IA de un baño con bañera revestida de piedra, espejo ovalado dorado y mueble suspendido de madera. No es una obra real.">
+              <p class="work-tag">Imagen ilustrativa generada con IA. No es una obra real</p>
+            </div>
+            <figcaption>Reforma integral de baño</figcaption>
+          </figure>
+
+          <figure class="work work-sm">
+            <div class="work-media">
+              <img src="assets/img/servicio-plato-ducha.jpg" width="1200" height="805" loading="lazy" decoding="async" alt="Imagen ilustrativa generada con IA de una ducha a ras de suelo con mampara de cristal y grifería dorada. No es una obra real.">
+              <p class="work-tag">Imagen ilustrativa generada con IA. No es una obra real</p>
+            </div>
+            <figcaption>Plato de ducha</figcaption>
+          </figure>
+
+          <figure class="work work-sm">
+            <div class="work-media">
+              <img src="assets/img/servicio-bano-accesible.jpg" width="1200" height="805" loading="lazy" decoding="async" alt="Imagen ilustrativa generada con IA de un baño con asiento abatible en la ducha, barras de apoyo y lavabo suspendido. No es una obra real.">
+              <p class="work-tag">Imagen ilustrativa generada con IA. No es una obra real</p>
+            </div>
+            <figcaption>Baño accesible</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Antes y después: deslizador comparativo (solo interacción, sin animación de scroll) -->
+    <section class="compare" id="antes-despues" aria-labelledby="compare-title">
+      <div class="compare-inner">
+        <header class="compare-head">
+          <h2 id="compare-title">Antes y después</h2>
+          <p>Mueve el deslizador para comparar. Ejemplo ilustrativo de demostración.</p>
+        </header>
+
+        <div class="compare-stage" id="compare-stage">
+          <img class="compare-img compare-after" src="assets/img/despues-bano.jpg" width="1600" height="1195" loading="lazy" decoding="async" alt="Imagen ilustrativa generada con IA, el después: baño con espejo redondo dorado, mueble suspendido de madera y ducha con mampara de cristal. No es una obra real.">
+
+          <img class="compare-img compare-before" src="assets/img/antes-bano.jpg" width="1600" height="1195" loading="lazy" decoding="async" alt="Imagen ilustrativa generada con IA, el antes: baño con lavabo de pie, inodoro, bañera con mampara y azulejos beige con cenefa floral. No es una obra real.">
+
+          <p class="compare-tag compare-tag-before"><strong>Antes</strong> Imagen ilustrativa generada con IA. No es una obra real</p>
+          <p class="compare-tag compare-tag-after"><strong>Después</strong> Imagen ilustrativa generada con IA. No es una obra real</p>
+
+          <div class="compare-handle" aria-hidden="true">
+            <span class="compare-knob">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg>
+            </span>
+          </div>
+
+          <input class="compare-range" id="compare-range" type="range" min="0" max="100" step="1" value="50" aria-valuetext="Antes al 50 %, después al 50 %">
+        </div>
+        <label class="compare-label" for="compare-range">Comparar antes y después</label>
+      </div>
+    </section>
+
+    <!-- Proceso: estructura con descripciones pendientes -->
+    <section class="process" id="proceso" aria-labelledby="process-title">
+      <div class="process-inner">
+        <header class="process-head">
+          <h2 id="process-title">Cómo trabajamos</h2>
+          <p class="pending">[PENDIENTE DE CONFIRMAR] Descripción real de cada paso.</p>
+        </header>
+        <ol class="steps">
+          <li class="step">
+            <h3>Consulta</h3>
+            <p class="pending">[PENDIENTE DE CONFIRMAR] Qué ocurre en este paso.</p>
+          </li>
+          <li class="step">
+            <h3>Propuesta</h3>
+            <p class="pending">[PENDIENTE DE CONFIRMAR] Qué ocurre en este paso.</p>
+          </li>
+          <li class="step">
+            <h3>Obra</h3>
+            <p class="pending">[PENDIENTE DE CONFIRMAR] Qué ocurre en este paso.</p>
+          </li>
+          <li class="step">
+            <h3>Entrega</h3>
+            <p class="pending">[PENDIENTE DE CONFIRMAR] Qué ocurre en este paso.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Confianza: huecos para datos reales y verificables -->
+    <section class="trust" id="confianza" aria-labelledby="trust-title">
+      <div class="trust-inner">
+        <header class="trust-head">
+          <h2 id="trust-title">Confianza</h2>
+          <p>Aquí se mostrarían datos reales y verificables de la empresa. Nada de lo que sigue es real todavía.</p>
+        </header>
+        <dl class="trust-list">
+          <div class="trust-row">
+            <dt>Reseñas de clientes</dt>
+            <dd>Opiniones reales, con permiso de quien las escribe y con enlace a su origen. <span class="pending">[PENDIENTE DE CONFIRMAR]</span></dd>
+          </div>
+          <div class="trust-row">
+            <dt>Acreditaciones y certificaciones</dt>
+            <dd>Las que la empresa pueda acreditar, con su número o un enlace de comprobación. <span class="pending">[PENDIENTE DE CONFIRMAR]</span></dd>
+          </div>
+          <div class="trust-row">
+            <dt>Garantías</dt>
+            <dd>Condiciones por escrito, tal como las ofrezca la empresa. <span class="pending">[PENDIENTE DE CONFIRMAR]</span></dd>
+          </div>
+          <div class="trust-row">
+            <dt>Experiencia</dt>
+            <dd>Datos de trayectoria que la empresa pueda demostrar. <span class="pending">[PENDIENTE DE CONFIRMAR]</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Presupuesto: formulario de DEMOSTRACIÓN. No envía datos a ningún sitio. -->
+    <section class="quote" id="presupuesto" aria-labelledby="presupuesto-title">
+      <div class="quote-inner">
+        <header class="quote-head">
+          <h2 id="presupuesto-title">Pide tu presupuesto</h2>
+          <p>Cuéntanos qué reforma tienes en mente. Es un formulario de demostración: no se envía nada.</p>
+        </header>
+
+        <div class="quote-direct">
+          <p>¿Prefieres hablar directamente?</p>
+          <div class="quote-direct-actions">
+            <a class="btn btn-secondary" href="#presupuesto" data-contact="whatsapp">Escribir por WhatsApp</a>
+            <a class="btn btn-secondary" href="tel:+340000000000" data-contact="phone" aria-label="Llamar al +34 000 000 000 (teléfono ficticio)">Llamar</a>
+          </div>
+        </div>
+
+        <noscript><p class="pending">El formulario de demostración necesita JavaScript.</p></noscript>
+
+        <form class="quote-form" id="quote-form" novalidate>
+          <fieldset class="quote-fields" id="quote-fields" disabled>
+            <legend class="sr-only">Datos de la solicitud de presupuesto</legend>
+
+            <div class="field">
+              <label for="f-nombre">Nombre <span class="req">(obligatorio)</span></label>
+              <input id="f-nombre" name="nombre" type="text" autocomplete="name" required aria-describedby="f-nombre-error">
+              <p class="field-error" id="f-nombre-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="f-telefono">Teléfono <span class="req">(obligatorio)</span></label>
+              <input id="f-telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="f-telefono-error">
+              <p class="field-error" id="f-telefono-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="f-tipo">Tipo de reforma <span class="req">(obligatorio)</span></label>
+              <select id="f-tipo" name="tipo" required aria-describedby="f-tipo-error">
+                <option value="">Elige una opción</option>
+                <option>Reforma integral de baño</option>
+                <option>Cambio de bañera por plato de ducha</option>
+                <option>Baño accesible</option>
+                <option>Fontanería</option>
+                <option>Alicatado</option>
+                <option>Otro / no lo sé</option>
+              </select>
+              <p class="field-error" id="f-tipo-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="f-zona">Municipio o zona <span class="req">(obligatorio)</span></label>
+              <input id="f-zona" name="zona" type="text" autocomplete="address-level2" required aria-describedby="f-zona-error">
+              <p class="field-error" id="f-zona-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="f-descripcion">Breve descripción <span class="req">(obligatorio)</span></label>
+              <textarea id="f-descripcion" name="descripcion" rows="4" maxlength="600" required aria-describedby="f-descripcion-error"></textarea>
+              <p class="field-error" id="f-descripcion-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="f-email">Email <span class="req">(opcional)</span></label>
+              <input id="f-email" name="email" type="email" autocomplete="email" aria-describedby="f-email-error">
+              <p class="field-error" id="f-email-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="f-plazo">Plazo aproximado de inicio <span class="req">(opcional)</span></label>
+              <select id="f-plazo" name="plazo">
+                <option value="">Sin indicar</option>
+                <option>Lo antes posible</option>
+                <option>En los próximos meses</option>
+                <option>Todavía no lo sé</option>
+              </select>
+            </div>
+
+            <div class="field field-check">
+              <div class="check-row">
+                <input id="f-privacidad" name="privacidad" type="checkbox" required aria-describedby="f-privacidad-error">
+                <label for="f-privacidad">He leído la política de privacidad. <span class="pending">[PENDIENTE DE CONFIRMAR: texto y responsable del tratamiento]</span> <span class="req">(obligatorio)</span></label>
+              </div>
+              <p class="field-error" id="f-privacidad-error" hidden></p>
+            </div>
+
+            <p class="quote-summary" id="quote-summary" aria-live="polite"></p>
+
+            <div class="quote-submit">
+              <button class="btn btn-primary" type="submit">Enviar solicitud de demostración</button>
+              <p class="quote-notice">Esta solicitud pide que nos pongamos en contacto contigo. No es un presupuesto vinculante, no reserva visita ni confirma disponibilidad.</p>
+            </div>
+          </fieldset>
+        </form>
+
+        <div class="quote-status" id="quote-status" role="status" tabindex="-1" hidden>
+          <p><strong>Formulario de demostración: no se ha enviado nada.</strong></p>
+          <p>Los datos que has escrito se han borrado. Si esto fuera una web real, aquí confirmaríamos el envío.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand">ÁUREA BAÑOS</p>
+      <p>Web de demostración. La empresa y sus datos son ficticios.</p>
+
+      <div class="footer-cols">
+        <div>
+          <h2 class="footer-title">Contacto</h2>
+          <ul>
+            <li>Teléfono ficticio: +34 000 000 000</li>
+            <li>Email: <span class="pending">[PENDIENTE DE CONFIRMAR]</span></li>
+            <li>Dirección: <span class="pending">[PENDIENTE DE CONFIRMAR]</span></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="footer-title">Legal</h2>
+          <ul>
+            <li>Aviso legal <span class="pending">[PENDIENTE DE ADAPTAR]</span></li>
+            <li>Política de privacidad <span class="pending">[PENDIENTE DE ADAPTAR]</span></li>
+            <li>Política de cookies <span class="pending">[PENDIENTE DE ADAPTAR]</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Barra fija de contacto: siempre visible y alcanzable con teclado -->
+  <nav class="contact-bar" aria-label="Contacto">
+    <span class="contact-brand">ÁUREA BAÑOS</span>
+    <div class="contact-actions">
+      <a class="btn btn-primary" href="#presupuesto" aria-label="Pedir presupuesto"><span class="lbl-short">Presupuesto</span><span class="lbl-full">Pedir presupuesto</span></a>
+      <a class="btn btn-secondary" href="#presupuesto" data-contact="whatsapp" aria-label="Escribir por WhatsApp"><span class="lbl-short">WhatsApp</span><span class="lbl-full">Escribir por WhatsApp</span></a>
+      <a class="btn btn-secondary" href="tel:+340000000000" data-contact="phone" aria-label="Llamar al +34 000 000 000 (teléfono ficticio)">Llamar</a>
+    </div>
+  </nav>
+
+  <!-- Aviso de los botones en modo demo -->
+  <div class="demo-notice" id="demo-notice" hidden>
+    <p id="demo-notice-text"></p>
+    <button type="button" class="demo-notice-close" id="demo-notice-close">Cerrar</button>
+  </div>
+  <p class="sr-only" id="demo-notice-live" role="status"></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <script src="compare.js"></script>
+  <script src="form.js"></script>
+</body>
+</html>

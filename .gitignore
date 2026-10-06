@@ -1,0 +1,18 @@
+# Configuración local de Claude Code y herramientas
+.claude/
+.codex/
+.impeccable/
+
+# Documentos internos del proyecto
+CLAUDE.md
+PRODUCT.md
+DESIGN.md
+
+# Imágenes: solo se publican las seis copias optimizadas que usa la web
+assets/img/*
+!assets/img/hero-bano.jpg
+!assets/img/antes-bano.jpg
+!assets/img/despues-bano.jpg
+!assets/img/servicio-reforma-integral.jpg
+!assets/img/servicio-plato-ducha.jpg
+!assets/img/servicio-bano-accesible.jpg
